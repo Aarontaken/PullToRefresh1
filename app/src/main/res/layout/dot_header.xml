@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#eeffffff"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:id="@+id/dots"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_dot_1"/>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_dot_2"/>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_dot_3"/>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_dot_4"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="下拉刷新"/>
+    </RelativeLayout>
+
+</RelativeLayout>
